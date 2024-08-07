@@ -1,0 +1,60 @@
+@import url("colors-waybar.css");
+*{
+ 
+  border-radius: 10px;
+}
+window {
+    font-size: 32px;
+    font-family: "JetBrainsMono Nerd Font";
+    font-weight: bold;
+    background-color: @background;
+    color: @foreground;
+    padding: 5px;
+    border: 3px solid @color3;
+    height: 50%;
+    width: 50%;
+
+}
+
+#input{
+  background-color: @background;
+  color:@foreground;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 5px;
+}
+#entry:selected {
+    /*background-color: @color4;*/
+    padding: 5px;
+    border: 3px solid @foreground;
+    border-radius: 10px;
+}
+
+#text:selected{
+    color: @background;
+
+
+}
+#input image {
+  padding: 10px;
+  color: @foreground;
+
+}
+#input:focus {
+  border: 3px solid @color8;
+
+}
+#entry{
+  padding:5px;
+  margin: 10px
+
+}
+
+#image{
+    
+  padding: 5px;
+}
+#img {
+    margin-right: 10px;
+    background: transparent;
+}

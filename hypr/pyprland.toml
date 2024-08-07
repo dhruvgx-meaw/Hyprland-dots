@@ -1,0 +1,14 @@
+[pyprland]
+plugins = ["scratchpads"]
+[scratchpads.kitty]
+command = "kitty"
+class = "kitty"  # check: hyprctl clients | grep class
+position = "20% 20%"
+size = "65% 65%"
+animation = "fromTop"
+[scratchpads.pavucontrol]
+command = "pavucontrol"
+class = "pavucontrol"
+position = "20% 20%"
+size = "70% 70%"
+animation = "fromLeft"
